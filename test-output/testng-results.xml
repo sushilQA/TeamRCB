@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1140" started-at="2023-03-19T02:19:31Z" finished-at="2023-03-19T02:19:32Z">
+  <suite name="Default suite" duration-ms="1790" started-at="2023-03-19T06:08:23Z" finished-at="2023-03-19T06:08:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1140" started-at="2023-03-19T02:19:31Z" finished-at="2023-03-19T02:19:32Z">
-      <class name="org.testing.TestScripts.TeamRCB">
-        <test-method status="PASS" signature="validatePlayers()[pri:0, instance:org.testing.TestScripts.TeamRCB@363ee3a2]" name="validatePlayers" duration-ms="984" started-at="2023-03-19T07:49:31Z" finished-at="2023-03-19T07:49:32Z">
+    <test name="Default test" duration-ms="1790" started-at="2023-03-19T06:08:23Z" finished-at="2023-03-19T06:08:25Z">
+      <class name="org.testing.RCB.TestScripts.TeamRCB">
+        <test-method status="PASS" signature="validatePlayers()[pri:0, instance:org.testing.RCB.TestScripts.TeamRCB@363ee3a2]" name="validatePlayers" duration-ms="1602" started-at="2023-03-19T11:38:24Z" finished-at="2023-03-19T11:38:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePlayers -->
-        <test-method status="PASS" signature="validateWicketKeeper()[pri:0, instance:org.testing.TestScripts.TeamRCB@363ee3a2]" name="validateWicketKeeper" duration-ms="120" started-at="2023-03-19T07:49:32Z" finished-at="2023-03-19T07:49:32Z">
+        <test-method status="PASS" signature="validateWicketKeeper()[pri:0, instance:org.testing.RCB.TestScripts.TeamRCB@363ee3a2]" name="validateWicketKeeper" duration-ms="167" started-at="2023-03-19T11:38:25Z" finished-at="2023-03-19T11:38:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateWicketKeeper -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.testing.TestScripts.TeamRCB@363ee3a2]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-03-19T07:49:32Z" finished-at="2023-03-19T07:49:32Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.testing.RCB.TestScripts.TeamRCB@363ee3a2]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-03-19T11:38:25Z" finished-at="2023-03-19T11:38:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- org.testing.TestScripts.TeamRCB -->
+      </class> <!-- org.testing.RCB.TestScripts.TeamRCB -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
