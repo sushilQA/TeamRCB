@@ -18,7 +18,7 @@ public class TeamRCB{
 		File file = new File("../TeamRCB/src/test/java/org/testing/RCB/Resources/TeamRCB.json");
 		ValidateForeignPlayers vp = new ValidateForeignPlayers();
 		ExtentReports extentReports = GenerateExtentReports.generateExtentReport();
-		ExtentTest extentTest = extentReports.startTest("Test Name = TeamRCB");
+		ExtentTest extentTest = extentReports.startTest("Test Name = TeamRCB - Validate Players");
 		vp.validateForeignPlayers(file);
 		extentReports.endTest(extentTest);
 		extentReports.flush();
@@ -28,7 +28,7 @@ public class TeamRCB{
 		File file = new File("../TeamRCB/src/test/java/org/testing/RCB/Resources/TeamRCB.json");
 		ValidateWicketKeeper vk = new ValidateWicketKeeper();
 		ExtentReports extentReports = GenerateExtentReports.generateExtentReport();
-		ExtentTest extentTest = extentReports.startTest("Test Name = TeamRCB");
+		ExtentTest extentTest = extentReports.startTest("Test Name = TeamRCB - Validate Wicket-Keeper");
 		vk.validateWicketKeeper(file);
 		extentReports.endTest(extentTest);
 		extentReports.flush();
