@@ -13,7 +13,7 @@ public class ValidateForeignPlayers {
 		System.out.println("******************** Validate Foreign Players ********************\n");
 		try {
 			ObjectMapper mapper = new ObjectMapper();
-			// Loading given json file into poojo
+			// Loading given json file into poojo 
 			RCB rcb = mapper.readValue(file,
 					RCB.class);
 			int playersCount = 0;
