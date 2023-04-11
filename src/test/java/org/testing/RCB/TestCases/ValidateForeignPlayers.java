@@ -39,6 +39,6 @@ public class ValidateForeignPlayers {
 		} catch (Exception e) {
 			System.out.println(e);
 		}
-		//Syso
+		
 	}
 }
